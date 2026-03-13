@@ -76,6 +76,25 @@ I'm currently focused on **audio and music experiences on the web** — blending
 
 ---
 
+## Music + Technology — A Unique Combination
+
+I bring a rare combination of **software engineering depth** and **genuine musical knowledge** to audio-driven projects.
+
+- Trained in **Carnatic classical music theory** and **Western music theory**
+- Hands-on experience with **piano** — understanding of harmony, voicing, and scales from a player's perspective
+- Practical background in **music production** — DAWs, arrangement, sound design, and audio programming
+- This foundation means I don't just wire up audio APIs — I understand *why* a chord resolves, *how* a rhythm feels, and *what* makes a musical interface intuitive
+
+**If you are looking for someone who can build:**
+- Music education apps, ear training tools, or theory explorers
+- DAW-style interfaces, step sequencers, or live performance UIs
+- Carnatic or Western gamified learning experiences
+- Audio-reactive visualisations or generative music tools
+
+I can bring both the **creative brief** and the **engineering execution** — no handoff required.
+
+---
+
 ## Beyond Code
 
 - **Music Production** — I produce and programme music
