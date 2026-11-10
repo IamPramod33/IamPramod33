@@ -1,143 +1,96 @@
-# Hi, I'm Pramod Maringanti 👋
+# Pramod Maringanti
 
-**Lead Front-End Developer · 12+ years · Hyderabad, India**
+**Frontend and product engineer · Hyderabad, India · 12+ years**
+ 
+I design and build interactive web products end to end, from the first sketch to shipped UI. My recent work is browser-based tools for music, learning and writing, published through my studio, [Thoughts & Bots](https://www.thoughtsandbots.com/). Behind that is 12+ years of frontend architecture for enterprise products: micro frontends, design systems and large React and Angular codebases.
+ 
+**Open to contract work:** frontend architecture, complex or unusual interfaces, and design-to-delivery product builds in any domain.
+ 
+---
 
-I architect and build scalable web and mobile applications — from enterprise SaaS platforms to interactive creative experiments. Currently exploring the intersection of **audio engineering**, **music**, and **web technology**.
+## See the work
 
-[![Email](https://img.shields.io/badge/Email-pramod.mnv33%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:pramod.mnv33@gmail.com)
-[![Website](https://img.shields.io/badge/Website-thoughtsandbots.com-6366f1?style=flat-square&logo=vercel&logoColor=white)](https://www.thoughtsandbots.com)
-[![Labs](https://img.shields.io/badge/Labs%20%26%20Demos-Live-10b981?style=flat-square&logo=lightning&logoColor=white)](https://www.thoughtsandbots.com/labs)
+The quickest way to assess what I build is to use it. Everything below is live and free to try.
+
+### Labs: interactive tools in the browser
+[thoughtsandbots.com/labs](https://www.thoughtsandbots.com/labs) · 18 tools, free, no account. New to it? [Follow a learning path](https://www.thoughtsandbots.com/labs/learn).
+
+**Identify:** which raga, scale or chord is this?
+
+| Tool | What it does |
+| --- | --- |
+| [**Chord Atlas**](https://www.thoughtsandbots.com/labs/chord-atlas) | Pick a scale or raga, then see and hear every chord in it |
+| [**Chord Explorer**](https://www.thoughtsandbots.com/labs/chord-explorer) | Click a chord, hear it and see it on the piano |
+| [**Circle of Fifths**](https://www.thoughtsandbots.com/labs/circle-of-fifths) | Interactive wheel of every key, its sharps or flats and its relative minor |
+| [**Pitch Mirror**](https://www.thoughtsandbots.com/labs/pitch-mirror) | Sing, and it finds your tonic and names the key (Western) |
+| [**Raga & Scale Finder**](https://www.thoughtsandbots.com/labs/raga-scale-finder) | Tap the notes you heard to see which ragas and scales fit, in any notation |
+| [**Raga Explorer**](https://www.thoughtsandbots.com/labs/raga-explorer) | Searchable reference of 237 Carnatic and Hindustani ragas by name, mela or thaat |
+| [**Svara Mirror**](https://www.thoughtsandbots.com/labs/svara-mirror) | Sing, and it finds your Sa and names the raga or scale, with on-device pitch analysis |
+
+**Drone:** a Sa to sing against.
+
+| Tool | What it does |
+| --- | --- |
+| [**Sa Finder**](https://www.thoughtsandbots.com/labs/sa-finder) | Hum along to a tanpura to find your home note |
+| [**Shruti**](https://www.thoughtsandbots.com/labs/shruti) | Tanpura drone for practice: set Sa, add Pa, sing over it |
+
+**Keep time:** count it, feel it, play along.
+
+| Tool | What it does |
+| --- | --- |
+| [**Beats & Grooves**](https://www.thoughtsandbots.com/labs/audio-sequencer) | Drum pattern builder with tempo finder and WAV export |
+| [**Grand Stage**](https://www.thoughtsandbots.com/labs/grand-stage) | Synthesised backing band with tempo, meter and key editable live |
+| [**Pulse**](https://www.thoughtsandbots.com/labs/pulse) | Feel time signatures, from a 3/4 waltz to 7/8 grooves |
+| [**Tala Clock**](https://www.thoughtsandbots.com/labs/tala-clock) | Tala metronome with konnakol, drone and tempo ramps |
+| [**Tempo & Time**](https://www.thoughtsandbots.com/labs/tempo-and-time) | Hear tempo and see time signatures, from 2/4 to 13/8 |
+
+**Practise:** train an ear, a hand, a gamaka.
+
+| Tool | What it does |
+| --- | --- |
+| [**Attune**](https://www.thoughtsandbots.com/labs/attune) | Ear-training game: hear a note, find it on the keys |
+| [**Gamaka Trainer**](https://www.thoughtsandbots.com/labs/gamaka-trainer) | Watch and hear each gamaka, slow it down, sing it back |
+| [**Tarang: Learn**](https://www.thoughtsandbots.com/labs/tarang) | Seven guided guitar chapters, from one string to a full song |
+
+**Write:** a prompt, a timer, a quiet page.
+
+| Tool | What it does |
+| --- | --- |
+| [**Inkwell**](https://www.thoughtsandbots.com/labs/inkwell) | Timed writing prompts with a two or five minute timer |
+
+### Products
+- **[PsychStreet](https://psychstreet.com)**: psychology content platform, built as a Progressive Web App
+- **[Itihāsa Tattva](https://itihasatattva.com)**: reading platform for long-form writing on classical Indian thought, also a PWA
+- **Music-learning app** (in development, nearing release): Carnatic, vocal, Western and piano taught through interactive tools instead of video
 
 ---
 
-## Featured Projects & Live Demos
+## How I work
 
-> Seven interactive demos at [thoughtsandbots.com/labs](https://www.thoughtsandbots.com/labs), unified under a single design system. Each one is a self-contained tool — no sign-up, no walls. Built to showcase both technical depth and creative direction.
+- **Design to delivery.** I take a product from concept and interface design through architecture, build and release.
+- **AI-assisted development.** I plan and design first, then build in the terminal with Claude Code, with everything under Git.
+- **Audio in the browser.** Real-time synthesis and analysis with Tone.js and the Web Audio API, running on the device.
+- **Offline-friendly.** Installable PWAs that work without accounts where possible.
 
-### Music & Audio
+## Stack
 
-| Project | What it does | Stack |
-|---------|--------------|-------|
-| [**Beats & Grooves**](https://www.thoughtsandbots.com/labs/audio-sequencer) | Step sequencer with kick, snare, hi-hat, bass, and Indian percussion (tabla, dhol, ghatam). Mobile-first 8-step pagination, presets (boom-bap, four-on-the-floor, teentaal, fusion), keyboard navigation, and **WAV export offloaded to a Web Worker**. | Web Audio API · `useReducer` · Web Worker · TypeScript |
-| [**Chord Explorer**](https://www.thoughtsandbots.com/labs/chord-explorer) | Pick a root, octave, and quality — hear it, see it on a piano. Responsive keyboard scales from 1 to 3 octaves by breakpoint. Smart range derivation that anchors on the chord root. | Tone.js · React · TypeScript |
-| [**Tala Clock**](https://www.thoughtsandbots.com/labs/tala-clock) | Carnatic rhythm metronome. Pick a tala, set the tempo, tap along — sam, clap, and wave each get their own sound and visual cue. Optional drone layer for Sa reference. | Tone.js · React |
-| [**Raga Explorer**](https://www.thoughtsandbots.com/labs/raga-explorer) | Browse 15 Carnatic ragas. See arohana and avarohana as swara tokens, hear each note on a responsive piano strip, walk the full scale at any tempo. | Tone.js · React |
-| [**Shruti**](https://www.thoughtsandbots.com/labs/shruti) | A tanpura drone for daily practice. Set Sa, layer Pa, run a Sa-Sa-Pa-Sa pluck shimmer underneath. Sa preference persists between sessions. | Tone.js · React |
-| [**Tarang**](https://www.thoughtsandbots.com/labs/tarang) | Strumming sandbox with real acoustic guitar samples. Lazy-loads on first play; shows live loop progress while looping. | Tone.js (Sampler) · React |
+`TypeScript` `React` `Next.js` `React Native` `Angular` `Node.js` `Tone.js` `Web Audio API` `Redux / NgRx` `RxJS` `Tailwind CSS` `PWA`
 
-### Writing
+## Background
 
-| Project | What it does | Stack |
-|---------|--------------|-------|
-| [**Inkwell**](https://www.thoughtsandbots.com/labs/inkwell) | Distraction-free timed creative writing. Pick a genre, get a fresh prompt (no repeats within 7 days), write for 2 or 5 minutes. **Session persistence** with resume-on-reload, +5 minute extend, copy or download as `.txt`. Custom warm-paper sub-brand in Lora serif. | Framer Motion · localStorage |
+12+ years building enterprise web and mobile applications, including:
 
-### Long-form products
+- **Aeries Technology Group**, Senior Software Engineer (6+ years). Account management UI and micro frontends for Newfold Digital brands: Bluehost, HostGator, Network Solutions.
+- **Cognate IT Solutions (Exponential AI)**, UI Tech Lead. Frontend architecture for an AI model-management platform.
+- **Innominds Software**, Software Engineer (5 years). Client work for Microsoft, CA Technologies, Deloitte, ColorTokens and Trimble.
 
-| Project | What it does | Stack |
-|---------|--------------|-------|
-| **Itihāsa Tattva** — Ancient Indian wisdom (Mahabharata & Bhagavad Gita) presented through modern interactive experiences. Multi-language (English, Telugu, Hindi), daily feed, offline-ready PWA. | Next.js · PWA · Multi-language | [itihasatattva.com →](https://itihasatattva.com) |
-| **PsychStreet** — Psychology-focused platform delivering short-form insights from everyday experiences. | Next.js · PWA | [psychstreet.com →](https://psychstreet.com) |
+B.Tech, Electronics and Communication Engineering.
 
----
+## About the code
 
-## Core Stack
+Source for these projects is private for now. I am happy to walk through the code on a call or give read access on request. Public repositories are on the way.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tone.js](https://img.shields.io/badge/Tone.js-1A1A1A?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Web Audio API](https://img.shields.io/badge/Web%20Audio%20API-FF6B6B?style=flat-square&logo=googlechrome&logoColor=white)
-![NgRx](https://img.shields.io/badge/NgRx-BA2BD2?style=flat-square&logo=reactivex&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=black)
-![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white)
+## Contact
 
----
-
-## Work Experience
-
-**Senior Software Engineer** · [Aeries Technology Group](https://www.aeriestech.com) *(2019 – Present)*  
-*Client: Newfold Digital (Network Solutions · Bluehost · HostGator)*  
-- Built and maintained Account Manager experience: dashboards, domain management, product modules (Google Workspace, Professional Email, Security, Hosting)
-- Developed micro frontends (MFEs) for modular, scalable UI across the Newfold ecosystem
-- Integrated PEGA-based workflows into Account Manager flows
-- Implemented ad-serving flows for single-click product purchase and upsell
-
-**UI Tech Lead** · Cognate IT Solutions – Exponential AI *(2018 – 2019)*  
-*Projects: ENSO Products · CIOX Health · Sanofi*  
-- Designed and built architecture for ENSO Canvas and ENSO Ops Center in Angular
-- Built **BPMN–Camunda workflow automation** (Angular 7 + BPMN.js) for pipeline and workflow processing
-- Led offshore UI team; worked with PMs on project prioritization and delivery
-- Delivered reusable plugins and a custom multi-theme switcher
-
-**Software Engineer** · Innominds Software *(2013 – 2018)*  
-*Clients: Microsoft · CA Technologies · ColorTokens · Deloitte · Trimble*  
-- **Microsoft** — Built Email Engagement and Relationship Insights (RA Cards) as custom controls in React + TypeScript; ensured accessibility; Selenium test automation
-- **CA Technologies** — API design/sketching tool in React + D3.js with tree structures and Express (Node) backend
-- **Deloitte (ConnectMe)** — Employee engagement hybrid app (iOS/Android) on Salesforce1 with Jasmine/Karma tests
-- **Trimble** — E-commerce quote flow (Angular JS + SOAP), application and asset management UIs
-- **ColorTokens** — Network simulation UI in Angular 2 with CRUD for config, start/stop, and reporting
-
----
-
-## What I'm Building Now
-
-The Labs at [thoughtsandbots.com/labs](https://www.thoughtsandbots.com/labs) is where current work lives — small browser tools that let me push on **audio engineering, music theory, and front-end performance** simultaneously.
-
-Recent work:
-
-- **Unified design system** — token-driven Tailwind config, documented in `docs/DESIGN_SYSTEM.md`. Every demo references the same `ink`, `moss`, `paper`, `parchment` tokens. No hex literals in components.
-- **Shared demo chrome** — status pills, tag rows, "Built with…" footers, related-labs strip, and dismissible first-visit hints. Each demo gets the same framing without reinventing it.
-- **Mobile-first audio interfaces** — sequencer grid that paginates 1-8 / 9-16 below 640px; piano keyboard that collapses from 3 octaves to 1 with octave shifters; touch targets ≥ 44px throughout.
-- **Off-thread audio export** — WAV encoding moved to a Web Worker so the UI stays responsive while rendering 4 bars of synthesised drums via `OfflineAudioContext`.
-- **Session persistence** — Inkwell hydrates timed-writing drafts from `localStorage` and surfaces a "Resume your story?" dialog on reload, with TTL pruning.
-- **Accessibility pass** — every chip group is now a proper `radiogroup`, every toggle exposes `aria-pressed`, every step button has `aria-label`. Keyboard nav with arrow keys + Space across the sequencer grid and piano keyboard.
-
-The combined effect: seven demos that read as one product, mobile-usable, and built to a portfolio-credible standard rather than weekend-prototype.
-
----
-
-## Music + Technology — A Unique Combination
-
-I bring a rare combination of **software engineering depth** and **genuine musical knowledge** to audio-driven projects.
-
-- Trained in **Carnatic classical music theory** and **Western music theory**
-- Hands-on experience with **piano** — understanding of harmony, voicing, and scales from a player's perspective
-- Practical background in **music production** — DAWs, arrangement, sound design, and audio programming
-- This foundation means I don't just wire up audio APIs — I understand *why* a chord resolves, *how* a rhythm feels, and *what* makes a musical interface intuitive
-
-The Labs make this concrete: [**Tala Clock**](https://www.thoughtsandbots.com/labs/tala-clock) and [**Raga Explorer**](https://www.thoughtsandbots.com/labs/raga-explorer) weren't built from a tutorial — they're tools I wanted for my own practice. The decisions about what an akshara should *sound* like, how an arohana should be *displayed*, when shimmer should layer on top of a drone — those come from sitting with the music, not just the spec.
-
-**If you are looking for someone who can build:**
-- Music education apps, ear training tools, or theory explorers
-- DAW-style interfaces, step sequencers, or live performance UIs
-- Carnatic or Western gamified learning experiences
-- Audio-reactive visualisations or generative music tools
-
-I can bring both the **creative brief** and the **engineering execution** — no handoff required.
-
----
-
-## Beyond Code
-
-- **Music Production** — I produce and programme music
-- **Creative Writing** — Storytelling across formats ([Inkwell](https://www.thoughtsandbots.com/labs/inkwell) came out of this)
-- **[Thoughts & Bots](https://www.thoughtsandbots.com)** — My creative studio turning ideas in Education, Culture, Arts, and Innovation into digital experiences
-  - [Itihāsa Tattva](https://itihasatattva.com) — Ancient wisdom from the Mahabharata and Bhagavad Gita for modern life
-  - [PsychStreet](https://psychstreet.com) — Psychology insights from everyday experience
-
----
-
-## Education
-
-**B.Tech – Electronics and Communication Engineering**  
-KITE College of Innovation, Shabad · 2008 – 2012
-
----
-
-*Open to innovative freelance projects. Reach me at [pramod.mnv33@gmail.com](mailto:pramod.mnv33@gmail.com)*
+- Website: [thoughtsandbots.com](https://www.thoughtsandbots.com/)
+- Email: pramod@thoughtsandbots.com
